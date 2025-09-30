@@ -14,7 +14,7 @@ const NavBar = () => {
   const [isTopPage, setIsTopPage] = useState<boolean>(true);
   const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false);
 
-  const isAboveMediaScrin = useMediaQuery("(min-width: 1200px)");
+  const isAboveMediaScrin = useMediaQuery("(min-width: 1120px)");
 
   const navbarBg = isTopPage ? "" : "bg-primary-100 drop-shadow";
 

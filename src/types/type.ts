@@ -1,3 +1,5 @@
+import { JSX } from "react";
+
 export type SectionId = "home" | "benefits" | "ourclasses" | "contactus";
 
 export const navLinks: { id: SectionId; label: string }[] = [
@@ -6,3 +8,9 @@ export const navLinks: { id: SectionId; label: string }[] = [
   { id: "ourclasses", label: "Ourclasses" },
   { id: "contactus", label: "Contactus" },
 ];
+
+export type BenefitsType = {
+  icon?: JSX.Element;
+  title: string;
+  description: string;
+};
