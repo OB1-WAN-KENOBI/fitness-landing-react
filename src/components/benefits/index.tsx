@@ -29,8 +29,33 @@ const Benefits = () => {
             alt="benefits-page-graphic"
           />
         </motion.div>
-        <motion.div className="flex">
-          
+        <motion.div className="flex-1 relative ">
+          <div className="before:absolute hidden md:block before:-left-20 before:-top-20 before:z-[1] before:content-(--content-abstractwaves)">
+            <Heading>
+              MILLIONS OF HAPPY MEMBERS GETTING{" "}
+              <span className="text-primary-500">FIT</span>
+            </Heading>
+          </div>
+          <div>
+            <p className="my-5">
+              Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
+              egestas ultrices consectetur adipiscing iltricies enim. Pulvinar
+              fames vitae vitae quis. Quis amet vulputate tincidunt at in nulla
+              nec. Consequat sed facilisis dui sit egestas ultrices tellus.
+              Ullamcorper arcu id pretium sapien proin integer nisl. Felis orci
+              diam odio.
+            </p>
+            <p className="mb-5">
+              Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
+              tellus quam porttitor. Mauris velit euismod elementum arcu neque
+              facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
+              enim mattis odio in risus nunc.
+            </p>
+          </div>
+          <div className="flex flex-wrap mt-16 justify-center md:justify-between items-center gap-8 ">
+            <ActionButton variant="button">Join Now</ActionButton>
+            <div className="relative before:z-[-1] before:content-(--content-sparkles) "></div>
+          </div>
         </motion.div>
       </motion.div>
     </section>
