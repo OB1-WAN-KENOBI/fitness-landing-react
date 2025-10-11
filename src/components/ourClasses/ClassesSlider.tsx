@@ -17,8 +17,10 @@ const ClassesSlider = () => {
       pagination={{ clickable: true }}
       loop={true}
       breakpoints={{
-        640: { slidesPerView: 2 },
-        1024: { slidesPerView: 3 },
+        0: { slidesPerView: 1 },
+        1024: { slidesPerView: 2 },
+        1440: { slidesPerView: 2 },
+        1650: { slidesPerView: 3 },
       }}
       className="px-4"
       >
