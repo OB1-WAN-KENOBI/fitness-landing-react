@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Logo from "@/assets/Logo.png";
 import ActionButton from "@/utils/ActionButton";
 import CustomLink from "./Link";
 import { SectionId, navLinks } from "@/types/type";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { de } from "zod/v4/locales";
+// import { de } from "zod/v4/locales";
 
 const NavBar = () => {
   const [activeSection, setActiveSection] = useState<SectionId | null>(
