@@ -378,6 +378,4 @@ export const footerLinks = [
 
 
 
-### Больше уроков
 
-[YouTube](https://www.youtube.com/channel/UCStPiUDdMG-aJPziQyqVZVg/)
