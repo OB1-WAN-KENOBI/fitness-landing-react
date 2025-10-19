@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 const OurClasses = () => {
   return (
     <section id="ourclasses" className="w-full bg-primary-100">
-      <div className="mx-auto w-5/6">
+      <div className="mx-auto w-5/6 p-5">
         <motion.div 
         {...baseMotion}
         transition={{duration: 0.9}}
