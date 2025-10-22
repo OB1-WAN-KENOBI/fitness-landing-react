@@ -65,7 +65,7 @@ const ContactUs = () => {
             <TextInput
               className="resize-none"
               type="textarea"
-              placeholder="MESSAHE"
+              placeholder="MESSAGE"
               register={register("message")}
               error={errors.message}
             />

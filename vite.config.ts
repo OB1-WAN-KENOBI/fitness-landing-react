@@ -5,8 +5,9 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/fitness-landing-react/",
   plugins: [react()],
   resolve: {
-    alias: [{find: "@", replacement: path.resolve(process.cwd(), "src")}]
-  }
-})
+    alias: [{ find: "@", replacement: path.resolve(process.cwd(), "src") }],
+  },
+});
